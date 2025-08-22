@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--google fonts!-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--connect style.css-->
+    <link rel="stylesheet" type="text/css" href="style.css"
+    <title></title>
+</head>
+<body>
+    <!--hero section begins-->
+    <div id="hero">
+        <div id="hero_content">
+            <h1>Crave Restaurant</h1>
+            <h2>Our smoke alarms are the real chefs</h2>
+            <a href="#menu">Menu</a>
+        </div>
+    </div>
+    <!--hero section ends-->
+
+    <!--Header section starts-->
+    <div id="header">
+        <nav id="navbar">
+            <h1>Crave Restaurant</h1>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#chef">Chef</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div id="phone">
+                <a href="tel:+91 9515393594">+91 9515393594</a>
+
+            </div>
+        </nav>
+        <div id="mobile_menu">
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#chef">Chef</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--Header section ends-->
+    <!--Menu section begin--> 
+    <div id="menu">
+    <h1 id="section">Menu</h1>
+
+    <div id="menu_row">
+        <div id="menu_col">
+            <h2>Breakfast</h2>
+
+            <!-- Dish 1 -->
+            <div class="box">
+                <div id="image">
+                    <img src="images/breakfast1.jpg">
+                </div>
+                <h3>Tasty Dish 01</h3>
+                <h4>10$</h4>
+            </div>
+
+            <!-- Dish 2 -->
+            <div class="box">
+                <div id="image">
+                    <img src="images/breakfast2.jpg">
+                </div>
+                <h3>Tasty Dish 02</h3>
+                <h4>12$</h4>
+            </div>
+
+            <!-- Dish 3 -->
+            <div class="box">
+                <div id="image">
+                    <img src="images/breakfast2.jpg">
+                </div>
+                <h3>Tasty Dish 03</h3>
+                <h4>15$</h4>
+            </div>
+            <h2>Lunch</h2>
+
+            <!-- Dish 1 -->
+            <div class="box">
+                <div id="image">
+                    <img src="images/lunch1.jpg">
+                </div>
+                <h3>Tasty lunch 01</h3>
+                <h4>20$</h4>
+            </div>
+
+            <!-- Dish 2 -->
+            <div class="box">
+                <div id="image">
+                    <img src="images/lunch2.jpg">
+                </div>
+                <h3>Tasty lunch 02</h3>
+                <h4>22$</h4>
+            </div>
+
+            <!-- Dish 3 -->
+            <div class="box">
+                <div id="image">
+                    <img src="images/lunch3.jpg">
+                </div>
+                <h3>Tasty lunch 03</h3>
+                <h4>25$</h4>
+            </div>
+            <h2>Dinner</h2>
+
+            <!-- Dish 1 -->
+            <div class="box">
+                <div id="image">
+                    <img src="images/dinner1.jpg">
+                </div>
+                <h3>Tasty Dinner 01</h3>
+                <h4>30$</h4>
+            </div>
+
+            <!-- Dish 2 -->
+            <div class="box">
+                <div id="image">
+                    <img src="images/dinner2.jpg">
+                </div>
+                <h3>Tasty Dinner 02</h3>
+                <h4>32$</h4>
+            </div>
+
+            <!-- Dish 3 -->
+            <div class="box">
+                <div id="image">
+                    <img src="images/dinner3.jpg">
+                </div>
+                <h3>Tasty Dinner 03</h3>
+                <h4>35$</h4>
+            </div>
+        </div>
+    </div>
+</div>
+<!--menu section ends-->
+<!--Chef section begins-->
+<div id="chef">
+    <h1 id="section">Chef</h1>
+    <div id="chef_row">
+        <div class="chef_col">
+            <div>
+                <img src="images/1.png">
+            </div>
+            <div>
+                <h4>Chef Rohan</h4>
+            </div>
+        </div>
+        <div class="chef_col">
+            <div>
+                <img src="images/2.png">
+            </div>
+            <div>
+                <h4>Chef Kiran</h4>
+            </div>
+        </div>
+        <div class="chef_col">
+            <div>
+                <img src="images/3.png">
+            </div>
+            <div>
+                <h4>Chef Mudsar Qayyum</h4>
+            </div>
+        </div>
+        <div class="chef_col">
+            <div>
+                <img src="images/4.png">
+            </div>
+            <div>
+                <h4>Chef Omar</h4>
+            </div>
+        </div>
+    </div>
+</div>
+<!--chef section ends-->
+<!--About section begin-->
+<div id="about">
+    <h1 id="section">About</h1>
+    <div id="about_row">
+        <div class="about_col">
+            <h1>About Us</h1>
+            <p> Welcome to Crave  It – the restaurant with a name as unforgettable as our food! We believe dining should be equal parts flavor and fun. Here, every dish comes with a story: Bhavani might have singed it with passion, but Lavanya makes sure it reaches your table with love (and maybe a little sarcasm too!).
+
+                Our menu blends homely comfort with bold twists, offering something for every mood – from a quick bite to a slow, hearty meal. Whether you’re laughing with friends, celebrating with family, or just craving a dish that feels special, we’ve got you covered.
+
+                At Bhavani Burnt It, Lavanya Served It, food is not just cooked – it’s created with personality. Come hungry, leave happy (and probably with a story to tell).</p>
+        </div>
+        <div class="about_col">
+            <div id="about_img">
+                <img src="images/about.png">
+            </div>
+        </div>
+    </div>
+</div>
+<!--About section ends-->
+<!--Contact section begins-->
+<div id="contact">
+    <h1 id="section">Contact</h1>
+    <div id="contact_row">
+        <div id="contact_col">
+            <div>
+                <p>
+                    <i class="fa fa-map-marker"></i>
+                    Vissannapeta,Krishna District,AndhraPradesh
+                </p>
+                <p>
+                <a href="lavanyad8203@gmail.com">
+                    <i class="fa fa-envelope"></i>
+                    lavanyad8203@gmail.com
+                </a>
+                </p>
+                <p>
+                    <a href="+91 9515393594"></a>
+                    <i class="fa fa-phone-square"></i>
+                    +91 9515393594
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Contact section ends-->
+</body>
+</html>
